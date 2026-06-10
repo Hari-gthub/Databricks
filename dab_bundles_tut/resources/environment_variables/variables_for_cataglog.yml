@@ -1,0 +1,8 @@
+variables:
+  catalog_name:
+    default: workspace
+  schema_name:
+    default: default
+  table_name:
+    default: customers
+    
