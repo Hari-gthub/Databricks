@@ -1,0 +1,17 @@
+resources:
+  pipelines:
+    pipeline_demo_pipeline_for_dabs_09_06_2026_am:
+      name: demo_pipeline_for_dabs_09_06_2026_am
+      libraries:
+        - glob:
+            include: /Workspace/Users/narahari.pujala@gmail.com/Databricks_assetbundle/dab_bundles_tut/src/pipelines/New
+              Pipeline 2026-06-09 09:12/transformations/**
+      schema: etl
+      continuous: false
+      development: false
+      photon: true
+      channel: CURRENT
+      catalog: workspace
+      serverless: true
+      root_path: /Workspace/Users/narahari.pujala@gmail.com/Databricks_assetbundle/dab_bundles_tut/src/pipelines/New
+        Pipeline 2026-06-09 09:12
